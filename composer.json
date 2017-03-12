@@ -1,0 +1,8 @@
+{
+  "name": "funyug/poloniex",
+  "description": "Api wrapper for cryptocurrency exchange Poloniex.com",
+  "homepage": "https://github.com/funyug/poloniex-api-client",
+  "require": {
+    "php": ">=5.3.0"
+  }
+}

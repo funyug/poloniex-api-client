@@ -3,25 +3,25 @@ Api client for Poloniex.com. Based on PHP wrapper by compcentral. Extended to ha
 
 
 # Installation
-composer require funyug/poloniex
+`composer require funyug/poloniex`
 
 # Usage
-use funyug/Poloniex;
+`use funyug/Poloniex;`
 
-$api = new Poloniex("Api key","Api secret");
+`$api = new Poloniex("Api key","Api secret");`
 
 Get Balance:
 
-$api->get_total_btc_balance(['BTC']);
+`$api->get_total_btc_balance();`
 
 Get Order book:
 
-$api->get_order_book("BTC_ETH");
+`$api->get_order_book("BTC_ETH");`
 
 Place Buy Order:
 
-$api->buy('BTC_ETH',$buy_price,$amount);
+`$api->buy('BTC_ETH',$buy_price,$amount);`
 
 Place Sell Order:
 
-$api->sell('BTC_ETH', $sell_price, $number_of_coins);
+`$api->sell('BTC_ETH', $sell_price, $number_of_coins);`

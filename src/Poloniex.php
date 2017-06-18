@@ -1,5 +1,5 @@
 <?php
-
+namespace Funyug;
 
 class Poloniex {
     protected $api_key;
@@ -48,7 +48,7 @@ class Poloniex {
         // run the query
         $res = curl_exec($ch);
 
-        if ($res === false) throw new Exception('Curl error: '.curl_error($ch));
+        if ($res === false) throw new \Exception('Curl error: '.curl_error($ch));
         //echo $res;
         $dec = json_decode($res, true);
         if (!$dec){

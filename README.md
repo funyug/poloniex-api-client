@@ -6,7 +6,7 @@ Api client for Poloniex.com. Based on PHP wrapper by compcentral. Extended to ha
 `composer require funyug/poloniex`
 
 # Usage
-`use funyug/Poloniex;`
+`use Funyug/Poloniex;`
 
 `$api = new Poloniex("Api key","Api secret");`
 
